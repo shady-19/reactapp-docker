@@ -1,0 +1,9 @@
+version: 'latest'
+services:
+  reactfe:
+    build: ./src
+    container_name: reactapp_c
+    ports:
+      -"3000:3000"
+    stdin_open: true
+    tty: true
